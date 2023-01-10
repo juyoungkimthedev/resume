@@ -16,11 +16,12 @@
 
                 <div>
                     <h1 id="user-name">Ju Young Kim</h1>
-                    <p id="bio">Software Engineer at <a href="https://primer.io/" target="_blank">Primer</a></p>
+                    <p>Little bit about myself...</p>
+                    <p id="bio">Working as a Software Engineer 👨‍💻</p>
                     <p id="bio">Born in 🇰🇷 raised in 🇿🇦</p>
-                    <p id="bio">📚 Life long learner</p>
+                    <p id="bio"> Life long learner 📚</p>
                     <p>👉 juyoung.kim517@gmail.com</p>
-                    <p>👉 +27 76 340 0746</p>
+                    <p>👉 +82 10 7646 0746</p>
             </section>
 
             <section class="section--page">
@@ -34,11 +35,11 @@
             <section class="section--page">
                 <h2>Summary</h2>
                 <ul id="qualifications--list">
-                    <li>✔ 4 years of software engineering experience in the fintech space.</li>
-                    <li>✔ Hands on experience in building API and web services.</li>
+                    <li>✔ 5 years of software engineering experience in the fintech space.</li>
+                    <li>✔ Hands on experience in building RESTful APIs and web services in Python.</li>
                     <li>✔ Hands on experience in ETL data pipelines i.e. Databricks, PySpark etc. </li>
-                    <li>✔ Cloud experience i.e. Azure, AWS services</li>
-                    <li>✔ DevOps experience using Docker, K8s, Deployments</li>
+                    <li>✔ Cloud experience i.e. Azure, AWS services.</li>
+                    <li>✔ DevOps experience using Docker, K8s, Deployments.</li>
                 </ul>
             </section>
 
@@ -47,11 +48,11 @@
 
                 <div id="wrapper--techstack__items">
                     <div class="card--techstack">
-                        <span>Python, JavaScript, TypeScript, Node.js, Julia, R</span>
+                        <span>Python, JavaScript, TypeScript, Node.js, Julia, R, Go (learning :D)</span>
                     </div>
 
                     <div class="card--techstack">
-                        <span>Azure, AWS, Docker, K8s</span>
+                        <span>Azure, AWS, Docker, K8s, Terraform</span>
                     </div>
 
                     <div class="card--techstack">
@@ -63,7 +64,7 @@
                     </div>
 
                     <div class="card--techstack">
-                        <span>PySpark, Databricks</span>
+                        <span>PySpark, Databricks, Kafka</span>
                     </div>
                 </div>
             </section>
@@ -72,13 +73,18 @@
                 <h2>Work History</h2>
                 <div class="line-break"></div>
                 <div class="card--work-history">
-                    <strong>💻 SOFTWARE ENGINEER | <a href="https://primer.io/" target="_blank">PRIMER</a></strong>
+                    <strong>💻 BACKEND SOFTWARE ENGINEER | <a href="https://primer.io/" target="_blank">PRIMER</a></strong>
                     <p>February 2022 - Present</p>
                     <p>Primer is a fully remote UK based company building the world's first no-code automation platform for payments. I work as a backend engineer in team Primer Connect.</p>
                     <ul>
-                        <li>Build and maintain FastAPI based web frameworks to enable developers build apps on Primer platform.</li>
-                        <li>Take part in migrating the legacy application connections to use the new framework that simplifies the application integration to Primer.</li>
-                        <li>Take part in building backend services that enable integration of applications and workflows for an end to end payment solution.</li>
+                        <li>As part of the core framework team, implemented and maintained Starlette based application framework to enable
+                            building of internal and third-party apps. Led migration of old apps to the new framework.</li>
+                        <li>Maintained and improved an existing FastAPI based core API by adding new endpoints, handlers and controllers that
+                            allow interservice interactions. Tools used: Aiohttp, SQLAlchemy, Kafka.</li>
+                        <li>Created codebase for marketplace API service that connects to the core API to serve app instances and specifications to
+                            merchants, allowing complete app management on the dashboard.</li>
+                        <li>Reduced time to build and maintain apps by 80% by creating an automation tool to manage app creation and metadata
+                            updates, eliminating frequent data migrations and manual assets upload to S3.</li>
                     </ul>
                 </div>
 
@@ -88,11 +94,14 @@
                     <p>April 2021 - January 2022</p>
                     <p>Root is an end-to-end digital insurance platform that enables you to launch new products and digital engagement channels fast. I worked as a backend engineer in the product team.</p>
                     <ul>
-                        <li>Designed and built insure-tech products and features to support end to end insurance policy lifecycle.</li>
-                        <li>Built policy PDF document encryption feature using <a href="https://github.com/qpdf/qpdf" target="_blank">qpdf</a> Node.js wrapper.</li>
-                        <li>Ported user code execution environment from Node.js <a href="https://www.npmjs.com/package/vm2" target="_blank">vm2</a> environment to AWS Lambda functions.</li>
-                        <li>Improved local cloud development experience and integration testing with <a href="https://github.com/localstack/localstack" target="_blank">Localstack.</a></li>
-                        <li>Took part in refactoring legacy React codebase to the new internal web architecture (class components to functional).</li>
+                        <li>Worked in the product team to build features for the core insurance platform. Worked mostly on server side TypeScript/Node.js
+                            code as well as some frontend components using React.js.</li>
+                        <li>Implemented policy document encryption functionality using Node.js <a href="https://github.com/qpdf/qpdf" target="_blank">qpdf</a> wrapper to automatically password protect
+                            policy related documents before sending to clients.</li>
+                        <li>Ported user product module code execution environment from Node.js vm2 to AWS Lambda functions to allow for more
+                            secure code execution and dependency management.</li>
+                        <li>Improved the legacy React codebase by refactoring to the new internal web architecture. Mostly worked on changing class
+                            component code to functional component with React hooks.</li>
                     </ul>
                 </div>
 
@@ -102,11 +111,11 @@
                     <p>March 2018 - March 2021</p>
                     <p>Praelexis AI is a machine learning and predictive analytics company. I worked as a hybrid of data engineer and machine learning engineer delivering end to end machine learning projects.</p>
                     <ul>
-                        <li>Productionisation of financial machine learning models (including neural nets) exposed as a REST API.</li>
-                        <li>Built all in one batch scoring workflows including jobs like data imports, model scoring, reporting and data exports.</li>
-                        <li>Built PySpark data workflows for enterprise data lake solutions on AWS and Azure.</li>
-                        <li>Built Python based end-to-end data pipeline using workflow management tools like <a href="https://github.com/spotify/luigi" target="_blank">Luigi</a> and <a href="https://github.com/apache/airflow" target="_blank">Airflow</a>.</li>
-
+                        <li>Designed and implemented backend apps serving credit machine learning models for a large retail South African bank
+                            using Python, Flask and Docker.</li>
+                        <li>Created and deployed large-scale data engineering and machine learning workflows to serve data for credit apps using
+                            Luigi, Airflow, PySpark and Databricks.</li>
+                        <li>Contributed to migrating core data lake services built on top of Azure to AWS using EMR, Glue, Athena.</li>
                     </ul>
                 </div>
 
