@@ -18,25 +18,24 @@
                     <h1 id="user-name">Ju Young Kim</h1>
                     <p>Little bit about myself...</p>
                     <p id="bio">Working as a Software Engineer 👨‍💻</p>
-                    <p id="bio">Born in 🇰🇷 raised in 🇿🇦</p>
+                    <p id="bio">Born in 🇰🇷 raised in 🇿🇦 currently in 🇨🇦</p>
                     <p id="bio"> Life long learner 📚</p>
                     <p>👉 juyoung.kim517@gmail.com</p>
-                    <p>👉 +82 10 7646 0746</p>
             </section>
 
             <section class="section--page">
                 <div id="socials--list">
                     <a href="https://github.com/juyoungkimthedev" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/ju-young-kim-048215b6/" target="_blank">LinkedIn</a>
-                    <a href="./assets/2023_RESUME_JYK.pdf" target="_blank">Download Resume</a>
+                    <a href="./assets/2024_RESUME_JYK.pdf" target="_blank">Download Resume</a>
                 </div>
             </section>
 
             <section class="section--page">
                 <h2>Summary</h2>
                 <ul id="qualifications--list">
-                    <li>✔ 5 years of software engineering experience in the fintech space.</li>
-                    <li>✔ Hands on experience in building RESTful APIs and web services in Python.</li>
+                    <li>✔ 5+ years of software engineering experience mostly in the fintech space.</li>
+                    <li>✔ Hands on experience in building RESTful APIs and web services in Python, Node.js/Express.js.</li>
                     <li>✔ Hands on experience in ETL data pipelines i.e. Databricks, PySpark etc. </li>
                     <li>✔ Cloud experience i.e. Azure, AWS services.</li>
                     <li>✔ DevOps experience using Docker, K8s, Deployments.</li>
@@ -73,19 +72,36 @@
                 <h2>Work History</h2>
                 <div class="line-break"></div>
                 <div class="card--work-history">
-                    <strong>💻 BACKEND SOFTWARE ENGINEER | <a href="https://primer.io/" target="_blank">PRIMER</a></strong>
-                    <p>February 2022 - Present</p>
-                    <p>Primer is a fully remote UK based company building the world's first no-code automation platform for payments. I work as a backend engineer in team Primer Connect.</p>
+                    <strong>💻 SENIOR SOFTWARE ENGINEER | <a href="https://www.proteinqure.com/" target="_blank">PROTEINQURE</a></strong>
+                    <p>July 2023 - Present</p>
+                    <p>ProteinQure is a revenue-generating software platform for computational protein drug discovery.</p>
                     <ul>
-                        <li>Worked in the core payment application framework team. Developed and maintained Starlette based Python application
-                            framework to allow developers to build internal and third-party apps on the payment platform. These apps were the
-                            building blocks of the payment platform. Led migration of old apps (not using framework) to the new framework.</li>
-                        <li>Maintained and improved existing FastAPI based core API by adding new endpoints, handlers and controllers that
-                            manage internal and third-party application lifecycle. Tools used: Aiohttp, SQLAlchemy, Kafka.</li>
-                        <li>Created marketplace API service that connects to the core API to serve app instances and specifications to merchants
-                            through a web dashboard, allowing complete app management on the dashboard.</li>
-                        <li>Reduced time to build and maintain new apps by 80% by creating an automation tool to manage app creation and
-                            metadata updates, eliminating frequent alembic data migrations and manual assets upload to S3.</li>
+                        <li>Engineered a monolith computational biology platform that comprises various command line tools and
+                            scripts to perform various biological calculations, data management and visualizations thereby enhancing
+                            computational protein research and drug discovery processes.</li>
+                        <li>Implemented a Slack chat bot to conveniently retrieve protein library data, utilizing technologies like
+                            Python, Google Sheet API, Kubernetes, improving wet-lab scientist’s analysis and research experience.</li>
+                        <li>Worked on FastAPI, React.js/Next.js based full stack web application serving likelihood prediction of a
+                            protein library hit against a target gene on an public endpoint.</li>
+                    </ul>
+                </div>
+
+                <div class="line-break"></div>
+                <div class="card--work-history">
+                    <strong>💻 BACKEND SOFTWARE ENGINEER | <a href="https://primer.io/" target="_blank">PRIMER</a></strong>
+                    <p>February 2022 - June 2023</p>
+                    <p>Primer is a fully remote UK based company building the world's first no-code automation platform for payments. I worked as a backend engineer in team Primer Connect.</p>
+                    <ul>
+                        <li>Worked in the core payment application framework team, designed and implemented Starlette based
+                            Python application framework to allow external app developers to build and release customized payment
+                            apps that integrate with third-party services in Primer’s marketplace. The payment apps were the building
+                            blocks of the Primer’s payment infrastructure. Led migration of old payment apps to the new framework.</li>
+                        <li>Created a FastAPI, SQLAlchemy based marketplace web services to streamline a lifecycle management of
+                            50+ internal and external payment apps via marketplace web dashboard thereby laying the foundation for
+                            building a Primer’s payment app store.</li>
+                        <li>Reduced time taken by developers to build and publish new payment apps by 80% with an automation
+                            pipeline that eliminated frequent data migrations and manual assets upload to cloud storage thereby
+                            increasing the number of apps published and deployed in the marketplace.</li>
                     </ul>
                 </div>
 
@@ -95,14 +111,16 @@
                     <p>April 2021 - January 2022</p>
                     <p>Root is an end-to-end digital insurance platform that enables you to launch new products and digital engagement channels fast. I worked as a backend engineer in the product team.</p>
                     <ul>
-                        <li>Joined the product team and worked mostly on the server side TypeScript/Node.js code to build new features and
-                            maintain a monolith insurance platform. Maintained some frontend dashboard components using React.js.</li>
-                        <li>Implemented policy pdf document encryption using Node.js qpdf wrapper that automatically password protects policy
-                            related documents before sending to clients.</li>
-                        <li>Ported client product module code execution environment from Node.js vm2 to AWS Lambda functions to allow for
-                            more secure code execution and dependency management.</li>
+                        <li>Worked in the product team, developed TypeScript, Node.js/Express.js based insurance platform backend
+                            and React.js based web dashboard providing tools for onboarded businesses to create and release new
+                            policies, pricing modules and customized features as quickly as possible.</li>
+                        <li>Implemented policy document encryption feature with web dashboard feature flag as required by data
+                            security legislation using Node.js qpdf wrapper that automatically password protects the related PDF
+                            documents before sending to clients.</li>
+                        <li>Ported client’s product module code execution environment from Node.js vm2 to AWS Lambda functions
+                            thereby enabling secure code execution and improving dependency management.</li>
                         <li>Improved the legacy React codebase by refactoring to the new internal web architecture. Mostly worked on changing class
-                            component code to functional component with React hooks.</li>
+                            component code to functional component with React state hooks.</li>
                     </ul>
                 </div>
 
@@ -110,17 +128,17 @@
                 <div class="card--work-history">
                     <strong>💻 SOFTWARE ENGINEER | DATA ENGINEER |  <a href="https://praelexis.com/" target="_blank">PRAELEXIS AI</a></strong>
                     <p>March 2018 - March 2021</p>
-                    <p>Praelexis AI is a machine learning and predictive analytics company. I worked as a hybrid of data engineer and machine learning engineer delivering end to end machine learning projects.</p>
+                    <p>Praelexis AI is a machine learning and predictive analytics company. I worked as a hybrid of data engineer and machine learning engineer delivering end-to-end machine learning projects.</p>
                     <ul>
-                        <li>Designed, implemented and deployed highly scalable Python APIs in the Azure Kubernetes Service that serve multiple
-                            financial machine learning model scores for credit teams at a retail bank. Tools used: Flask, Aiohttp, Cosmos DB.</li>
-                        <li>Created and managed batch data pipelines handling financial transaction data of 10-100 million rows daily, used by
-                            machine learning workflows to perform model training, scoring and exporting. Tools used: Luigi, Azure HDInsight, Livy,
-                            PySpark, Spark SQL, Databricks.</li>
-                        <li>Contributed to migrating the bank’s core data lake services built on top of Azure to AWS using S3, Glue, EMR, Lambda.</li>
+                        <li>Designed, implemented and deployed highly scalable Python web services in Azure Kubernetes Service
+                            enabling banks to productionize credit machine learning models, thus fostering innovation in their
+                            individual and business credit strategies.</li>
+                        <li>Engineered PySpark-based data pipelines, processing financial transaction data of 10-100 million rows
+                            daily consumed by the bank's machine learning workflows, utilizing technologies like Luigi, Azure
+                            HDInsight, Azure CosmosDB, Spark SQL, Databricks, thereby enabling faster launch of end-to-end
+                            machine learning products within credit departments.</li>
                     </ul>
                 </div>
-
             </section>
 
             <section id="work-history-wrapper" class="section--page">
